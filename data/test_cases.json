@@ -2,18 +2,143 @@
   "test_cases": [
     {
       "id": 1,
+      "category": "basic_plate",
       "description": "rectangular plate 200mm by 100mm with 4 circular holes of 10mm diameter, positioned 20mm from each corner",
-      "expected": {"width": 200, "height": 100, "holes": 4}
+      "domain": "marine_structural",
+      "difficulty": "basic"
     },
     {
       "id": 2,
+      "category": "basic_plate",
       "description": "square plate 150mm by 150mm with center hole 30mm diameter",
-      "expected": {"width": 150, "height": 150, "holes": 1}
+      "domain": "general",
+      "difficulty": "basic"
     },
     {
       "id": 3,
-      "description": "rectangular bracket 300mm by 200mm with 8 holes",
-      "expected": {"width": 300, "height": 200, "holes": 8}
+      "category": "flange",
+      "description": "circular flange outer diameter 200mm inner diameter 100mm with 8 bolt holes 15mm diameter on 150mm pitch circle",
+      "domain": "marine_structural",
+      "difficulty": "medium"
+    },
+    {
+      "id": 4,
+      "category": "l_bracket",
+      "description": "L-shaped bracket vertical leg 150mm horizontal leg 100mm with 20mm radius fillet at corner",
+      "domain": "marine_structural",
+      "difficulty": "medium"
+    },
+    {
+      "id": 5,
+      "category": "stiffened_plate",
+      "description": "rectangular stiffener plate 300mm by 150mm with 6 holes 12mm diameter arranged in 2 rows",
+      "domain": "marine_structural",
+      "difficulty": "medium"
+    },
+    {
+      "id": 6,
+      "category": "connection_plate",
+      "description": "rectangular connection plate 250mm by 120mm with 4 corner holes 16mm diameter at 30mm offset",
+      "domain": "structural",
+      "difficulty": "basic"
+    },
+    {
+      "id": 7,
+      "category": "bearing_plate",
+      "description": "square bearing plate 200mm by 200mm with center slot 80mm by 40mm",
+      "domain": "structural",
+      "difficulty": "medium"
+    },
+    {
+      "id": 8,
+      "category": "gusset_plate",
+      "description": "triangular gusset plate base 200mm height 150mm with 3 corner holes 14mm diameter",
+      "domain": "structural",
+      "difficulty": "medium"
+    },
+    {
+      "id": 9,
+      "category": "web_frame",
+      "description": "rectangular web frame 400mm by 200mm with lightening holes 8 circles 60mm diameter",
+      "domain": "marine_structural",
+      "difficulty": "complex"
+    },
+    {
+      "id": 10,
+      "category": "bulkhead_plate",
+      "description": "rectangular bulkhead plate 500mm by 300mm with circular cutout 100mm diameter centered",
+      "domain": "marine_structural",
+      "difficulty": "medium"
+    },
+    {
+      "id": 11,
+      "category": "mounting_plate",
+      "description": "rectangular mounting plate 180mm by 140mm with 8 holes 10mm diameter in grid pattern",
+      "domain": "general",
+      "difficulty": "medium"
+    },
+    {
+      "id": 12,
+      "category": "doubler_plate",
+      "description": "rectangular doubler plate 220mm by 160mm with 6 edge holes 18mm diameter",
+      "domain": "structural",
+      "difficulty": "medium"
+    },
+    {
+      "id": 13,
+      "category": "clip_angle",
+      "description": "L-shaped clip angle each leg 80mm with 2 holes 10mm diameter per leg",
+      "domain": "structural",
+      "difficulty": "medium"
+    },
+    {
+      "id": 14,
+      "category": "pipe_flange",
+      "description": "circular pipe flange outer diameter 250mm inner diameter 120mm with 12 bolt holes 20mm diameter on 200mm PCD",
+      "domain": "marine_structural",
+      "difficulty": "complex"
+    },
+    {
+      "id": 15,
+      "category": "reinforcement_plate",
+      "description": "rectangular reinforcement plate 280mm by 180mm with 4 corner holes 14mm diameter and center cutout 60mm by 40mm",
+      "domain": "structural",
+      "difficulty": "complex"
+    },
+    {
+      "id": 16,
+      "category": "base_plate",
+      "description": "square base plate 300mm by 300mm with 4 anchor bolt holes 24mm diameter at 250mm PCD",
+      "domain": "structural",
+      "difficulty": "medium"
+    },
+    {
+      "id": 17,
+      "category": "splice_plate",
+      "description": "rectangular splice plate 350mm by 150mm with 10 holes 16mm diameter in staggered pattern",
+      "domain": "structural",
+      "difficulty": "complex"
+    },
+    {
+      "id": 18,
+      "category": "deck_plate",
+      "description": "rectangular deck plate 600mm by 400mm with 16 drainage holes 30mm diameter distributed evenly",
+      "domain": "marine_structural",
+      "difficulty": "complex"
+    },
+    {
+      "id": 19,
+      "category": "stiffener_bracket",
+      "description": "T-shaped stiffener bracket vertical 200mm horizontal 150mm with 6 holes total",
+      "domain": "marine_structural",
+      "difficulty": "complex"
+    },
+    {
+      "id": 20,
+      "category": "access_plate",
+      "description": "rectangular access plate 450mm by 350mm with rounded corners 30mm radius and 8 mounting holes 12mm diameter",
+      "domain": "marine_structural",
+      "difficulty": "complex"
     }
   ]
 }
