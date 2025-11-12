@@ -1,0 +1,19 @@
+{
+  "test_cases": [
+    {
+      "id": 1,
+      "description": "rectangular plate 200mm by 100mm with 4 circular holes of 10mm diameter, positioned 20mm from each corner",
+      "expected": {"width": 200, "height": 100, "holes": 4}
+    },
+    {
+      "id": 2,
+      "description": "square plate 150mm by 150mm with center hole 30mm diameter",
+      "expected": {"width": 150, "height": 150, "holes": 1}
+    },
+    {
+      "id": 3,
+      "description": "rectangular bracket 300mm by 200mm with 8 holes",
+      "expected": {"width": 300, "height": 200, "holes": 8}
+    }
+  ]
+}
