@@ -1,0 +1,17 @@
+# Development requirements for CADGen-AI
+# Install with: pip install -r requirements-dev.txt
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Linting
+flake8>=6.1.0
+
+# Optional: Schema validation (provides stricter validation)
+jsonschema>=4.20.0
+
+# Note: transformers and torch are optional for unit tests
+# They are only needed when running with actual LLM model
+# Install separately if needed:
+# pip install transformers torch
