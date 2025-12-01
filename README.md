@@ -7,8 +7,7 @@ Convert engineering descriptions in plain English into ready-to-use AutoCAD DXF 
 
 ## Timeline
 - **Start Date:** November 12, 2025
-- **Target Delivery:** December 12, 2025 (30 days)
-- **Weekly Updates:** Every Friday 6 PM IST
+
 
 ## Technology Stack
 - **Backend:** Python FastAPI
